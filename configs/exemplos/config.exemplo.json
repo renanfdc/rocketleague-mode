@@ -1,0 +1,10 @@
+{
+  "_comentario": "Config de exemplo do mod LEGADO (legacy/rl-ball-mod). USO OFFLINE / EAC-OFF apenas. Fonte unica de verdade — os 4 configs divergentes do projeto antigo foram unificados aqui. JSON nao aceita comentario de verdade; este campo e ignorado pelo mod.",
+  "enabled": true,
+  "texture_file": "bola-amarelo-solido.png",
+  "apply_to_dissolve": true,
+  "night_mode": false,
+  "night_intensity": 0.3,
+  "auto_test": false,
+  "log_level": "info"
+}

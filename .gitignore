@@ -1,0 +1,42 @@
+# ──────────────────────────────────────────────────────────────
+# Binarios e artefatos de build — NUNCA versionar
+# (o mod legado e OUTPUT de codigo re-buildavel; nao commitar o binario)
+# ──────────────────────────────────────────────────────────────
+*.dll
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.pyc
+__pycache__/
+build/
+dist/
+*.spec
+
+# Empacotamentos
+*.zip
+*.7z
+*.rar
+
+# Capturas / saidas locais de teste
+*.bmp
+screenshot*.png
+*.log
+log.txt
+texhook_log.txt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Segredos (nunca deve haver nenhum aqui, mas por garantia)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token

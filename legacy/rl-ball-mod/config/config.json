@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "texture_file": "ball_custom.png",
+    "apply_to_dissolve": true,
+    "auto_test": false,
+    "night_mode": true,
+    "night_intensity": 0.3,
+    "log_level": "info"
+}
